@@ -1,5 +1,5 @@
 # cd-memo
-A shell script cd implementation that memorizes your working directory across sessions
+A shell-script-based cd implementation that memorizes your working directory across sessions
 ## Behavior
 Any newly opened shell instance will be right where you left off
 ## Usage
