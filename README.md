@@ -2,7 +2,8 @@
 Enhanced cd that memorizes your working directory across sessions
 
 ## Functionality
-Any newly opened shell instance will be right where you left off
+Any newly opened shell instance will be right where you left off \
+Additionally you can `cd --` to go to the last cd in all shell sessions
 
 ## Install
 If you are using Arch Linux, an AUR package is available \

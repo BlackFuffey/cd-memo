@@ -1,7 +1,7 @@
 pkgbase = cd-memo
 	pkgdesc = Enhanced cd that memorizes your working directory across sessions
-	pkgver = oct2024v1
-	pkgrel = 1
+	pkgver = oct2024v2
+	pkgrel = 2
 	url = https://github.com/BlackFuffey/cd-memo
 	arch = any
 	license = MIT
@@ -10,9 +10,5 @@ pkgbase = cd-memo
 	source = cd-memo-init
 	source = README.md
 	source = LICENSE
-	sha256sums = 39e1e8efd455c2e936c7a144d405310a0e04b531bc50ba21f2aa3d60b1730f51
-	sha256sums = f7488e88638d0127b11e3ce1ef4d27bfc963eb247aa35191e00afa8f5ed86dfd
-	sha256sums = 2a31de3bb133c086788296ca4fc951c26c75957f166b0296a9b736b1ca440d2a
-	sha256sums = b8c42f6ef4fa7552a40d029fa9e58eadf12090642febb21db1b47a13cca09f01
 
 pkgname = cd-memo
