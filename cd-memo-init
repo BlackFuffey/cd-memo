@@ -4,7 +4,7 @@ if [ ! -e "$HOME/.cdmem" ]; then
     echo $HOME > ~/.cdmem
 fi
 
-\cd $(cat ~/.cdmem) 2> /dev/null
+\cd "$(cat ~/.cdmem)" 2> /dev/null
 
 if [ "$?" -ne "0" ]; then
     echo "cd: previous directory ($(cat ~/.cdmem)) is inaccessible"
