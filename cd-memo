@@ -15,7 +15,7 @@ if [ "$1" = "-" ]; then
     echo $OLDPWD > ~/.cdmem
 
 elif [ "$1" = "--" ]; then
-    \cd $(cat ~/.cdmem) 2> /dev/null
+    \cd "$(cat ~/.cdmem)" 2> /dev/null
 
     if [ "$?" -ne "0" ]; then
         echo "cd: previous directory ($(cat ~/.cdmem)}) is inaccessible"
