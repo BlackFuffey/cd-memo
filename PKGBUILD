@@ -1,7 +1,7 @@
 # Maintainer: BlackFuffey ethanthecomputerman@gmail.com
 pkgname=cd-memo
-pkgver=2024.11.v1
-pkgrel=3
+pkgver=2024.11.v2
+pkgrel=4
 pkgdesc="Enhanced cd that memorizes your working directory across sessions"
 arch=('any')
 url="https://github.com/BlackFuffey/cd-memo"
