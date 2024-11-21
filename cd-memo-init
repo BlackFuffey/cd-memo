@@ -8,7 +8,6 @@ fi
 
 if [ "$?" -ne "0" ]; then
     echo "cd: previous directory ($(cat ~/.cdmem)) is inaccessible"
-    return 1
 fi
 
 
