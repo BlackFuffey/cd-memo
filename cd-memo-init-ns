@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ ! -e "$HOME/.cdmem" ]; then 
+    echo $HOME > ~/.cdmem
+fi
+
+alias cd='source cd-memo'
