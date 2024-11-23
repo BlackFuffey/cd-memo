@@ -19,6 +19,9 @@ sudo wget 'https://raw.githubusercontent.com/BlackFuffey/cd-memo/refs/heads/main
 ## Usage
 Add `source /usr/bin/cd-memo-init` to your shell init \
 \
+If you don't want new shell sessions to open in previous working directory but want to enjoy other features \ 
+Add `source /usr/bin/cd-memo-init-ns` to your shell init instead \
+\
 For example:
 - For bash, this will be `~/.bashrc`
 - For zsh, this will be `~/.zshrc`
