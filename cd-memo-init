@@ -4,6 +4,14 @@ if [ ! -e "$HOME/.cdmem" ]; then
     echo $HOME > ~/.cdmem
 fi
 
+alias cd='source cd-memo'
+
+if [[ "$(pwd)" != "$HOME" ]]; then
+    echo "cd: working directory is already set, ignoring"
+    echo "You can still go to last working directory using 'cd --'"
+    return
+fi
+
 \cd "$(cat ~/.cdmem)" 2> /dev/null
 
 if [ "$?" -ne "0" ]; then
@@ -11,4 +19,3 @@ if [ "$?" -ne "0" ]; then
 fi
 
 
-alias cd='source cd-memo'
