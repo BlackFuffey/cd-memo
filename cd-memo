@@ -29,7 +29,7 @@ elif [ -d "$1" ]; then
     \cd "$1"
 
 else
-    echo "cd: no such file or directory: $1"
+    echo "cd: no such directory: $1"
     return 1
 fi
 
